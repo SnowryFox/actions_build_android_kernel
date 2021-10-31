@@ -5,9 +5,9 @@ on:
     types: [started]
     
 env:
-  KERNEL_SOURCE_URL: https://github.com/MiCode/Xiaomi_Kernel_OpenSource/
-  KERNEL_SOURCE_BRANCH: dipper-q-oss
-  DEFCONFIG_NAME: dipper_user_defconfig
+  KERNEL_SOURCE_URL: https://hub.fastgit.org/OpenKirin/android_kernel_huawei_hi6250/
+  KERNEL_SOURCE_BRANCH: 8.x
+  DEFCONFIG_NAME: merge_hi6250_defconfig
   TZ: Asia/Shanghai
 
 jobs:
